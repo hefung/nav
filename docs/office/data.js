@@ -1,5 +1,5 @@
 export const NAV_DATA = [
-    {
+  {
     title: '电脑资源',
     items: [
       {
@@ -9,7 +9,22 @@ export const NAV_DATA = [
         link: 'https://www.officetool.plus/zh-cn/',
         badge: '官网',
       },
-      
+      // 新增
+      {
+        icon: 'https://www.7-zip.org/favicon.ico',
+        title: '7-Zip',
+        desc: '免费开源压缩解压工具，支持多种压缩格式，无广告。',
+        link: 'https://www.7-zip.org/',
+        badge: '官网',
+      },
+      // 新增
+      {
+        icon: 'https://www.rufus.ie/favicon.ico',
+        title: 'Rufus',
+        desc: '免费制作U盘启动盘工具，用来刻录Windows系统镜像。',
+        link: 'https://rufus.ie/zh/',
+        badge: '官网',
+      },
     ]
   },
   {
@@ -99,6 +114,14 @@ export const NAV_DATA = [
         link: 'https://www.notion.so/',
         badge: '官网',
       },
+      // 新增
+      {
+        icon: 'https://www.obsidian.md/favicon.ico',
+        title: 'Obsidian',
+        desc: '本地优先的双链笔记软件，适合搭建个人知识库。',
+        link: 'https://obsidian.md/',
+        badge: '官网',
+      },
     ]
   },
   {
@@ -132,6 +155,14 @@ export const NAV_DATA = [
         link: 'https://www.zhixi.com/space',
         badge: '官网',
       },
+      // 新增
+      {
+        icon: 'https://xmind.app/favicon.ico',
+        title: 'XMind',
+        desc: '老牌思维导图工具，模板丰富，导出选项多，支持在线与客户端。',
+        link: 'https://xmind.app/',
+        badge: '官网',
+      },
     ]
   },
   {
@@ -142,6 +173,22 @@ export const NAV_DATA = [
         title: '汉语方言发音词典',
         desc: '一个可以查询方言发音的网站。普通话的闽南语、广东话、潮州话、客家话、上海话等共计11种方言发音。',
         link: 'https://zh.voicedic.com/',
+        badge: '官网',
+      },
+      // 新增
+      {
+        icon: 'https://dict.cn/favicon.ico',
+        title: '海词词典',
+        desc: '老牌在线词典，单词例句、发音、词库齐全。',
+        link: 'https://dict.cn/',
+        badge: '官网',
+      },
+      // 新增
+      {
+        icon: 'https://youdao.com/favicon.ico',
+        title: '有道翻译',
+        desc: '支持文本、文档、图片翻译，多语种互译。',
+        link: 'https://fanyi.youdao.com/',
         badge: '官网',
       },
     ]
@@ -348,6 +395,14 @@ export const NAV_DATA = [
         link: 'https://online.tukuppt.com/',
         badge: '官网',
       },
+      // 新增
+      {
+        icon: 'https://www.51job.com/favicon.ico',
+        title: '前程无忧简历中心',
+        desc: '招聘平台自带在线简历编辑，适合求职投递。',
+        link: 'https://resume.51job.com/',
+        badge: '官网',
+      },
     ]
   },
   {
@@ -371,7 +426,7 @@ export const NAV_DATA = [
         icon: '/icons/hjenglish.png',
         title: '沪江英语',
         desc: '一个很不错的英语学习站，提供国内领先的外语互联网门户媒体、B2C电子商务、网络SNS学习社区、外语互联网学习工具在内的全套外语数字教育网络服务。',
-        link: 'https://www.hjenglish.com/',
+        link: 'shturl.cc/T8yiDgdkrYofPR7t',
         badge: '官网',
       },
       {
@@ -456,6 +511,14 @@ export const NAV_DATA = [
         link: 'https://www.examcoo.com/',
         badge: '官网',
       },
+      // 新增
+      {
+        icon: 'https://yz.chsi.com.cn/favicon.ico',
+        title: '研招网',
+        desc: '研究生招生官方网站，报名、查分、调剂、院校信息权威渠道。',
+        link: 'https://yz.chsi.com.cn/',
+        badge: '官网',
+      },
     ]
   },
   {
@@ -519,7 +582,7 @@ export const NAV_DATA = [
         icon: '/icons/gangqinpu.png',
         title: '虫虫钢琴网',
         desc: '提供优质的免费钢琴谱资源,是集钢琴谱,钢琴曲试听,钢琴演奏,琴友交流的音乐平台。',
-        link: 'https://www.gangqinpu.com/',
+        link: 'shturl.cc/riw3U6khF4pYz85Q',
         badge: '官网',
       },
       {
@@ -623,6 +686,14 @@ export const NAV_DATA = [
         link: 'https://www.jikexueyuan.com/',
         badge: '官网',
       },
+      // 新增
+      {
+        icon: 'https://www.lanqiao.cn/favicon.ico',
+        title: '蓝桥云课',
+        desc: '在线编程实训平台，支持在线运行代码，适合编程练习。',
+        link: 'https://www.lanqiao.cn/',
+        badge: '官网',
+      },
     ]
   },
   {
@@ -635,6 +706,14 @@ export const NAV_DATA = [
         link: 'https://chartcube.alipay.com/',
         badge: '官网',
       },
+      // 新增
+      {
+        icon: 'https://echarts.apache.org/favicon.ico',
+        title: 'ECharts',
+        desc: '百度开源可视化图表库，在线示例调试，可直接复制代码。',
+        link: 'https://echarts.apache.org/examples/zh/index.html',
+        badge: '官网',
+      },
     ]
   },
   {
@@ -645,6 +724,58 @@ export const NAV_DATA = [
         title: '微词云',
         desc: '一款实用性强、简单的在线文字云、在线词云生成器，相对于其他产品，我们的产品功能更加强大，不仅支持在线分词，还支持词频统计、词频分析。',
         link: 'https://www.weiciyun.com/',
+        badge: '官网',
+      },
+    ]
+  },
+  // 【新增分类】图片素材
+  {
+    title: '图片素材',
+    items: [
+      // 新增
+      {
+        icon: 'https://pixabay.com/favicon.ico',
+        title: 'Pixabay',
+        desc: '免费无版权图库，图片、插画、视频均可商用。',
+        link: 'https://pixabay.com/',
+        badge: '官网',
+      },
+      // 新增
+      {
+        icon: 'https://www.unsplash.com/favicon.ico',
+        title: 'Unsplash',
+        desc: '高清免费摄影图库，可直接商用，无需署名。',
+        link: 'https://unsplash.com/',
+        badge: '官网',
+      },
+      // 新增
+      {
+        icon: 'https://www.iconfont.cn/favicon.ico',
+        title: '阿里图标库',
+        desc: '国内海量免费图标，支持SVG、PNG下载，适合网页与PPT。',
+        link: 'https://www.iconfont.cn/',
+        badge: '官网',
+      },
+    ]
+  },
+  // 【新增分类】在线配色
+  {
+    title: '在线配色',
+    items: [
+      // 新增
+      {
+        icon: 'https://www.colorhunt.co/favicon.ico',
+        title: 'Color Hunt',
+        desc: '高质量配色方案网站，直接复制色值。',
+        link: 'https://colorhunt.co/',
+        badge: '官网',
+      },
+      // 新增
+      {
+        icon: 'https://coolors.co/favicon.ico',
+        title: 'Coolors',
+        desc: '自动生成配色，支持导出、调整色卡。',
+        link: 'https://coolors.co/',
         badge: '官网',
       },
     ]

@@ -1,5 +1,22 @@
 ---
 layout: home
+hero:
+  name: 技海拾珍
+  text: 精选好工具
+  tagline: 收集开发AI、办公、设计、图库站点。
+  image:
+    src: /logo.png
+    alt: HeFung Logo
+  actions:
+    - theme: brand
+      text: 开始浏览
+      link: /ai/
+    - theme: alt
+      text: 打赏赞助
+      link: https://hefung.github.io/sponsor.html
+    - theme: alt
+      text: GitHub
+      link: https://github.com/hefung/nav
 features:
   - icon: 📖
     title: 编程物语
@@ -33,8 +50,6 @@ features:
 ---
 
 <script setup>
-// import MNavLinks from '../../components/MNavLinks.vue'
-
 import { FRIEND_DATA } from './home/friend-data'
 </script>
 <style src="./home/index.scss"></style>

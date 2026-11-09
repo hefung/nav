@@ -79,6 +79,49 @@ export const NAV_DATA = [
         link: 'https://tool.liumingye.cn/',
         badge: '官网',
       },
+      // ========== 下面是新增在线工具，图标使用官网favicon，纯工具、不带AI ==========
+      {
+        icon: 'https://www.bejson.com/favicon.ico',
+        title: 'BeJSON',
+        desc: 'JSON格式化、校验、转义，各种前端数据转换工具。',
+        link: 'https://www.bejson.com/',
+        badge: '官网',
+      },
+      {
+        icon: 'https://c.runoob.com/favicon.ico',
+        title: '菜鸟在线工具',
+        desc: '在线运行代码、进制转换、正则测试、编码解码。',
+        link: 'https://c.runoob.com/',
+        badge: '官网',
+      },
+      {
+        icon: 'https://www.svgviewer.dev/favicon.ico',
+        title: 'SVG Viewer',
+        desc: 'SVG在线预览、压缩、格式化、导出PNG。',
+        link: 'https://www.svgviewer.dev/',
+        badge: '官网',
+      },
+      {
+        icon: 'https://regex101.com/favicon.ico',
+        title: 'Regex101',
+        desc: '正则表达式在线调试、解释、测试。',
+        link: 'https://regex101.com/',
+        badge: '官网',
+      },
+      {
+        icon: 'https://www.base64.org/favicon.ico',
+        title: 'Base64',
+        desc: 'Base64编码解码工具。',
+        link: 'https://www.base64.org/',
+        badge: '官网',
+      },
+      {
+        icon: 'https://www.urldecoder.org/favicon.ico',
+        title: 'URL编码解码',
+        desc: 'URL参数转义、编码解码。',
+        link: 'https://www.urldecoder.org/',
+        badge: '官网',
+      },
     ],
   },
   {
@@ -98,6 +141,21 @@ export const NAV_DATA = [
         link: 'https://github.com/TonnyL/Awesome_APIs',
         badge: 'API',
       },
+      // ========== 新增API合集，图标favicon ==========
+      {
+        icon: 'https://apifox.com/favicon.ico',
+        title: 'Apifox',
+        desc: 'API文档、调试、Mock、自动化测试一体化平台。',
+        link: 'https://apifox.com/',
+        badge: 'API',
+      },
+      {
+        icon: 'https://jsonplaceholder.typicode.com/favicon.ico',
+        title: 'JSONPlaceholder',
+        desc: '免费的假数据REST API，前端调试用。',
+        link: 'https://jsonplaceholder.typicode.com/',
+        badge: 'API',
+      }
     ]
   }
 ];

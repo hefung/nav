@@ -23,6 +23,30 @@ export const NAV_DATA = [
         link: 'https://u.tools/',
         badge: '官网',
       },
+      // 新增
+      {
+        icon: 'https://www.snipaste.com/favicon.ico',
+        title: 'Snipaste',
+        desc: '截图+贴图神器，支持像素级取色、标注、钉屏，无广告。',
+        link: 'https://www.snipaste.com/',
+        badge: '官网',
+      },
+      // 新增
+      {
+        icon: 'https://github.com/favicon.ico',
+        title: 'PowerToys',
+        desc: '微软官方Windows效率工具集，含窗口布局、批量重命名、颜色拾取等功能。',
+        link: 'https://github.com/microsoft/PowerToys',
+        badge: '官网',
+      },
+      // 新增
+      {
+        icon: 'https://ditto-cp.sourceforge.io/favicon.ico',
+        title: 'Ditto',
+        desc: '开源剪贴板增强工具，自动记录复制历史，支持快速粘贴。',
+        link: 'https://ditto-cp.sourceforge.io/',
+        badge: '官网',
+      },
     ],
   },
   {
@@ -82,6 +106,22 @@ export const NAV_DATA = [
         desc: '知名用户脚本资源共享网站',
         link: 'https://greasyfork.org/zh-CN'
       },
+      // 新增
+      {
+        icon: 'https://www.dayanzai.me/favicon.ico',
+        title: '大眼仔旭',
+        desc: '老牌绿色软件分享站，收录大量Windows精品工具。',
+        link: 'https://www.dayanzai.me/',
+        badge: '官网',
+      },
+      // 新增
+      {
+        icon: 'https://hellogithub.com/favicon.ico',
+        title: 'HelloGitHub',
+        desc: '分享GitHub上有趣、入门级开源项目，适合发现好用开源工具。',
+        link: 'https://hellogithub.com/',
+        badge: '官网',
+      },
     ],
   },
   {
@@ -129,6 +169,103 @@ export const NAV_DATA = [
         desc: '强大而优雅的半开源 PE 工具',
         link: 'https://home.edgeless.top/'
       },
+      // 新增
+      {
+        icon: 'https://www.wepe.com.cn/favicon.ico',
+        title: '微PE工具箱',
+        desc: '无广告、轻量化的经典WinPE装机维护工具。',
+        link: 'https://www.wepe.com.cn/',
+        badge: '官网',
+      },
+      // 新增
+      {
+        icon: 'https://www.microsoft.com/favicon.ico',
+        title: '微软官方下载站',
+        desc: 'Windows系统镜像、Office安装包官方原版下载入口。',
+        link: 'https://www.microsoft.com/zh-cn/software-download/',
+        badge: '官网',
+      },
+    ]
+  },
+  // 新增分类：系统下载
+  {
+    title: '系统下载',
+    items: [
+      {
+        icon: 'https://uupdump.net/favicon.ico',
+        title: 'UUP dump',
+        desc: '在线打包Windows原版镜像，直接拉取微软服务器源。',
+        link: 'https://uupdump.net/',
+        badge: '官网',
+      },
+      {
+        icon: 'https://www.hellowindows.cn/favicon.ico',
+        title: 'HelloWindows',
+        desc: '纯净原版Windows镜像仓库，无捆绑无广告。',
+        link: 'https://www.hellowindows.cn/',
+        badge: '官网',
+      },
+      {
+        icon: 'https://rg-adguard.net/favicon.ico',
+        title: 'RG-Adguard',
+        desc: '获取Windows、Office官方安装包直链。',
+        link: 'https://uup.rg-adguard.net/',
+        badge: '官网',
+      },
+    ]
+  },
+  // 新增分类：系统激活
+  {
+    title: '系统激活',
+    items: [
+      {
+        icon: 'https://massgrave.dev/favicon.ico',
+        title: 'MAS 激活脚本',
+        desc: '开源微软激活脚本，支持Windows、Office多种激活方式。',
+        link: 'https://massgrave.dev/',
+        badge: '官网',
+      },
+      {
+        icon: 'https://github.com/favicon.ico',
+        title: 'HEU KMS Activator',
+        desc: '国内热门离线KMS工具，本地运行，支持Windows与Office。',
+        link: 'https://github.com/zbezj/HEU_KMS_Activator',
+        badge: '开源',
+      },
+    ]
+  },
+  // 新增分类：系统优化
+  {
+    title: '系统优化',
+    items: [
+      {
+        icon: 'https://christitus.com/favicon.ico',
+        title: 'WinUtil',
+        desc: '国外热门Windows一键优化脚本，卸载预装、关闭隐私收集。',
+        link: 'https://winutil.christitus.com/',
+        badge: '官网',
+      },
+      {
+        icon: 'https://github.com/favicon.ico',
+        title: 'SophiApp',
+        desc: '现代UI Windows微调工具，上百项系统隐私、性能优化选项。',
+        link: 'https://github.com/Sophia-Community/SophiApp',
+        badge: '开源',
+      },
+      {
+        icon: 'https://github.com/favicon.ico',
+        title: 'Optimizer',
+        desc: '开源系统优化工具，清理垃圾、关闭服务、修改Hosts、硬件检测。',
+        link: 'https://github.com/hellzerg/optimizer',
+        badge: '开源',
+      },
+      {
+        icon: 'https://github.com/favicon.ico',
+        title: 'Win11Debloat',
+        desc: 'Win11专用一键精简脚本，卸载预装应用、关闭遥测隐私、优化系统性能，图形化操作简单安全。',
+        link: 'https://github.com/Raphire/Win11Debloat',
+        badge: '开源',
+      },
     ]
   },
   {
@@ -158,6 +295,22 @@ export const NAV_DATA = [
         desc: '图标库',
         link: 'https://iconpark.oceanengine.com/official'
       },
+      // 新增
+      {
+        icon: 'https://www.iconfont.cn/favicon.ico',
+        title: '阿里巴巴矢量图标库',
+        desc: '国内最大免费图标库，支持SVG/PNG下载，适合网页、PPT使用。',
+        link: 'https://www.iconfont.cn/',
+        badge: '官网',
+      },
+      // 新增
+      {
+        icon: 'https://tabler.io/favicon.ico',
+        title: 'Tabler Icons',
+        desc: '开源线性图标库，风格简洁统一，支持直接复制SVG代码。',
+        link: 'https://tabler.io/icons',
+        badge: '官网',
+      },
     ]
   },
   {
@@ -180,6 +333,22 @@ export const NAV_DATA = [
         title: '字体天下',
         desc: '提供各类字体的免费下载和在线预览服务',
         link: 'https://www.fonts.net.cn/'
+      },
+      // 新增
+      {
+        icon: 'https://source.typekit.com/favicon.ico',
+        title: '思源字体',
+        desc: '谷歌+Adobe联合开源免费商用字体，含思源黑体、思源宋体。',
+        link: 'https://source.typekit.com/source-han-serif/cn/',
+        badge: '官网',
+      },
+      // 新增
+      {
+        icon: 'https://www.zcool.com.cn/favicon.ico',
+        title: '站酷字体',
+        desc: '站酷推出的多款免费商用中文字体，设计、写作均可免费使用。',
+        link: 'https://www.zcool.com.cn/special/zcoolfonts/',
+        badge: '官网',
       },
     ]
   }
