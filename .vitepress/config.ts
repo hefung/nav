@@ -2,7 +2,6 @@ import { basename } from "node:path";
 import { defineConfig } from "vitepress";
 import { head, nav, sidebar } from "./configs";
 
-const isGitHubActions = process.env.GITHUB_ACTIONS === "true";
 // 只有CI里面这行才会执行到，本地这变量用不上
 const repoName = basename(process.env.GITHUB_REPOSITORY || "");
 
@@ -11,7 +10,7 @@ export default defineConfig({
   description: "收集一些日常使用的网站资源和网站社区", // 描述
   lang: "zh-CN", // 设置语言
   head, // 设置favicon
-  base: isGitHubActions ? `/${repoName}/` : "/",
+  base: repoName ? `/${repoName}/` : "/",
   srcDir: "docs", // 文档目录
 
   lastUpdated: true, // 开启最后更新时间
